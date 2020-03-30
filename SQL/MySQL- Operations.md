@@ -5,14 +5,7 @@
 ### Find Duplicates
 Find duplicates in SQL
 ```sql
-SELECT
-    name, COUNT(*)
-FROM
-    table_name
-GROUP BY
-    name
-HAVING 
-    COUNT(*) > 1
+SELECT name, COUNT(*) FROM table_name GROUP BY name HAVING COUNT(*) > 1
 ```
 
 ### Whitespace trim column
