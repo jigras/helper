@@ -11,4 +11,6 @@ RTRIM()
 
 Code:
 
-```UPDATE `table` SET `column_name`= RTRIM(LTRIM(`column_name`))```
+```
+UPDATE `table` SET `column_name`= RTRIM(LTRIM(`column_name`))
+```
