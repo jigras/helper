@@ -7,7 +7,7 @@ Find duplicates in SQL
 ```sql
 SELECT name, COUNT(*) FROM table_name GROUP BY name HAVING COUNT(*) > 1
 ```
-
+---
 ### Whitespace trim column
 Trim first end line space from column string
 - Trim whitespace left:
@@ -22,3 +22,9 @@ Code:
 UPDATE `table` SET `column_name`= RTRIM(LTRIM(`column_name`))
 ```
 ---
+
+### Replace
+
+```sql
+UPDATE `table_name` SET `column_name` = REPLACE('column_name' , 'string_to_del', '') WHERE ~expression
+```
