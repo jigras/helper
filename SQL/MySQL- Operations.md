@@ -1,8 +1,8 @@
 # MySQL
 
 ## Operations
-### Whitepsace trim
-Trim first end line space from column string
+### Whitepsace trim column
+Trim first end line space from string column 
 - Trim whitespace left:
 LTRIM()
 
