@@ -50,3 +50,7 @@ Extracting day from date
 ```sql
 SELECT EXTRACT (DAY from date'2019-1-15')
 ```
+
+
+Functions	
+	
