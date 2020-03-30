@@ -1,4 +1,4 @@
-# MYSQL
+# MySQL
 
 ## Operations
 ### Whitepsace trim
