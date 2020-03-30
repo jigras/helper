@@ -14,3 +14,4 @@ Code:
 ```
 UPDATE `table` SET `column_name`= RTRIM(LTRIM(`column_name`))
 ```
+---
