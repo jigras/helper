@@ -20,34 +20,3 @@ List of MySQL aggregate functions and a hint of what they do
 |VAR_POP()|MySQL VAR_POP() the population standard variance.|
 |VAR_SAMP()|MySQL VAR_SAMP() the sample variance.|
 |VARIANCE()|MySQL VARIANCE() the variance.|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MySQL VAR_POP()the population standard variance.
