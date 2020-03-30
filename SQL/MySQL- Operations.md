@@ -15,7 +15,7 @@ HAVING
     COUNT(*) > 1
 ```
 
-### Whitepsace trim column
+### Whitespace trim column
 Trim first end line space from column string
 - Trim whitespace left:
 LTRIM()
